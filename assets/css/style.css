@@ -11126,7 +11126,7 @@ h3.cart-page-title {
 
 
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:767px) {
 
   .performers {
     width: 100%;
