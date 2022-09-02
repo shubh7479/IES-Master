@@ -4682,9 +4682,9 @@ textarea:focus {
 
 @media only screen and (max-width: 767px) {
   .testi-big-img img {
-    width: 100%;
+    width: 50%;
     position: inherit;
-    margin-left: 2px;
+    margin-left: 25vw;
   }
 }
 
@@ -4717,7 +4717,7 @@ textarea:focus {
 
 @media only screen and (max-width: 767px) {
   .testi-content {
-    padding: 30px 15px;
+    padding: 10px 10px;
   }
 }
 
@@ -4810,6 +4810,7 @@ textarea:focus {
 @media only screen and (max-width: 767px) {
   .testimonial-text-img {
     width: 100%;
+    margin-top: -120px;
   }
 }
 
@@ -11681,13 +11682,8 @@ body {
     display: none;
     margin-bottom: 20px;
   }
-<<<<<<< HEAD
 
 
-=======
-
-
->>>>>>> ff057fc3535516ce0ae11f284fdde9dff49e022e
   .mobile-slider{
     display: none;
   }
@@ -11816,8 +11812,4 @@ body {
     display: none;
     margin-bottom: 20px;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ff057fc3535516ce0ae11f284fdde9dff49e022e
