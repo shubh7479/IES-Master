@@ -11,7 +11,7 @@
 
     1. Template default CSS
     2. Header style
-	3. Slider style
+  3. Slider style
     4. choose us area
     5. About us
     6. Course area
@@ -1998,6 +1998,7 @@ textarea:focus {
   width: 7px;
   z-index: 999;
 }
+
 
 .main-menu nav ul li ul.submenu li:hover a::before {
   opacity: 1;
@@ -11126,7 +11127,7 @@ h3.cart-page-title {
 
 
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:767px) {
 
   .performers {
     width: 100%;
@@ -11357,22 +11358,107 @@ body {
  .blog-img-hidetab{
   display: block;
  }
+ /* .nav-main{
+  width: 100%;
+  height: 15vh;
+  display: none;
+  display: grid;
+  grid-template-columns: 1fr;
+
+ }
+ .icons{
+  width: 100%;
+  height: 6vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  color: green;
+  
+ }
+ .icons-name{
+  width: 100%;
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ }
+ .icon{
+  border: 1px solid red;
+  padding-left:6vw;
+ }
+ .icon-name{
+  border: 1px solid red;
+  font-size: 10px;
+  color: green;
+  margin: 0;
+ }
+ */
+
+
+
+
+ /* external css: flickity.css */
+
 
 
 /* for mobile  */
 
 @media (max-width: 767px) {
   .logo-img {
-    width: 170px;
-    height: 45px;
-    margin-left: 60px;
+    width: 160px;
+    height: 35px;
+    margin-left: 77%;
+    margin-top: 3%;
   }
   .slider-animated-1 {
-    margin-top: -50px;
+    margin-top: -20px;
   }
-  .third-banner {
-    display: none;
+ 
+  .marquee-link-mobile{
+    margin-top: 140px;
+    /* display: none; */
     
+  
+  }
+  .about-us{
+    padding-top: 20px;
+  }
+  .performers{
+    display: none;
+  }
+
+  .single-choose-us{
+    display: none;
+  }
+  .section-title h3{
+    font-size: 16px;
+  }
+   
+  .single-blog{
+    display: none;
+  }
+
+
+
+
+
+  .custom-col-5 {
+    padding-right: 70px;
+    padding-left: 70px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+  }
+  
+  .explore-link {
+    margin-left: 85%;
+  
+  }
+  .nav-main{
+    display: block;
+  }
+  .mobile-slider{
+    margin-top: 20px;
   }
 
 
@@ -11392,6 +11478,7 @@ body {
   .third-banner {
     display: none;
   }
+ 
 
   .performers {
     width: 90%;
@@ -11400,6 +11487,23 @@ body {
     grid-template-columns: 1fr ;
     margin: auto;
   }
+  .single-blog{
+    display: none;
+  }
+  .mobile-slider{
+    display: none;
+    margin-bottom: 20px;
+  }
+  .mobile-slider-tab{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+  .section-title h3{
+    font-size: 17px;
+  }
+
   .about-img {
     width: 98%;
     height: 90px;
@@ -11445,15 +11549,28 @@ body {
     
 
   }
-  .whats-new-li-sec{
-    display: none;
+  .whats-new-link {
+    width: 100%;
+    height: 90%;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
   }
-  .whats-new-show-li{
-    display: block;
+
+  .useful-nav h3{
+    font-size: 14px;
   }
+
+
+  .useful-link-content ul li {
+    text-align: left;
+    margin-left: 250px;
+
+  }
+
 .sec-li{
-  margin-top: -20px;
-  display: none;
+  display: block;
 }
 .sec-show-li{
   display: block;
@@ -11493,8 +11610,8 @@ body {
   -ms-flex: 0 0 20%;
   flex: 0 0 20%;
   max-width: 25%;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 2px;
+  padding-left: 2px;
   position: relative;
   width: 100%;
   min-height: 1px;
@@ -11560,7 +11677,15 @@ body {
   .third-banner {
     display: block;
   }
+  .mobile-slider-tab{
+    display: none;
+    margin-bottom: 20px;
+  }
 
+
+  .mobile-slider{
+    display: none;
+  }
   .img-about {
     margin-top: -150px;
     /* display: none; */
@@ -11620,6 +11745,7 @@ body {
     max-width: 20%;
     padding-right: 21px;
     padding-left: 21px;
+   
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -11644,6 +11770,12 @@ body {
   .slider-animated-1 {
     margin-top: -80px;
   }
+  .mini-lap-font{
+    font-size: 13px;
+  }
+  .mobile-slider{
+    display: none;
+  }
 
 
 }
@@ -11657,7 +11789,13 @@ body {
   .third-banner {
     display: block;
   }
-
+  .mobile-slider{
+    display: none;
+  }
+  .mobile-slider-tab{
+    display: none;
+    margin-bottom: 20px;
+  }
 
 }
 
@@ -11666,4 +11804,11 @@ body {
     display: block;
   }
 
+  .mobile-slider{
+    display: none;
+  }
+  .mobile-slider-tab{
+    display: none;
+    margin-bottom: 20px;
+  }
 }
