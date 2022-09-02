@@ -10918,7 +10918,8 @@ h3.cart-page-title {
 
   .sublink {
     width: 100%;
-    height: auto;
+    height: 20px;
+    margin-left: -34px;
 
   }
 
@@ -10933,7 +10934,7 @@ h3.cart-page-title {
     border-bottom: 8px solid transparent;
 
     border-left: 8px solid green;
-    margin-left: 100%;
+    margin-left: 99.5%;
     margin-top: -30px;
 
 
@@ -10944,7 +10945,7 @@ h3.cart-page-title {
     border-bottom: 8px solid transparent;
 
     border-left: 8px solid green;
-    margin-left: 100%;
+    margin-left: 99.5%;
     margin-top: -30px;
 
 
@@ -10955,7 +10956,7 @@ h3.cart-page-title {
     border-bottom: 8px solid transparent;
 
     border-left: 8px solid green;
-    margin-left: 100%;
+    margin-left: 99.5%;
     margin-top: -30px;
 
 
@@ -11015,7 +11016,7 @@ h3.cart-page-title {
   .useful-nav h3 {
     color: white;
     padding-top: 3px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .useful-link-content {
@@ -11025,7 +11026,8 @@ h3.cart-page-title {
   }
 
   .useful-link-content ul li {
-    text-align: center;
+    text-align: left;
+    font-size: 11px;
   }
 
   .useful-link-content ul hr {
@@ -11440,6 +11442,33 @@ body {
 
 
 
+  .link{
+
+  border-top: 0px groove white;
+
+
+  }
+  .subcontent-of-faq{
+  border-top: 0px groove white;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+    
+
+
+  }
+
+  .whats-new-li-sec{
+    display: none;
+  }
+  .whats-new-show-li{
+    display: block;
+
+  }
+  .whats-new-li li{
+    font-size: 10px;
+  }
+
+
+
 
   .custom-col-5 {
     padding-right: 70px;
@@ -11669,6 +11698,7 @@ body {
     width: 230px;
     height: 50px;
     margin-top: -15px;
+
   }
 
   .contact {
