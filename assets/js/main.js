@@ -599,7 +599,7 @@
     
     /*--------------------------
         Product Zoom
-	---------------------------- */
+    ---------------------------- */
     $(".zoompro").elevateZoom({
         gallery: "gallery",
         galleryActiveClass: "active",
@@ -644,16 +644,16 @@
     });
     
     /*--
-	   pro-details color Active
+       pro-details color Active
     -----------------------------------*/
     $('.pro-details-color2-content ul li')
-	.on('click', function() {
-		$('.pro-details-color2-content ul li').removeClass('active');
-		$(this).addClass('active');
-	});
+    .on('click', function() {
+        $('.pro-details-color2-content ul li').removeClass('active');
+        $(this).addClass('active');
+    });
     
     /*----------------------------
-    	Cart Plus Minus Button
+        Cart Plus Minus Button
     ------------------------------ */
     var CartPlusMinus = $('.cart-plus-minus');
     CartPlusMinus.prepend('<div class="dec qtybutton">-</div>');
@@ -730,7 +730,7 @@
     
     
     
-})(jQuery);	
+})(jQuery); 
 
 // faq's section
 
@@ -968,5 +968,240 @@ function paramstw(){
     x[22].style.display = "none";
   }
 }
+
+
+function whatsnewcontent(){
+  document.getElementById('whatsnewcontentbody').style.display="block";
+  document.getElementById('esecontentbody').style.display="none";
+  document.getElementById('gatecontentbody').style.display="none";
+
+
+  document.getElementById('whatsnewid').style.backgroundColor="green";
+  document.getElementById('eseid').style.backgroundColor="rgb(77,175,77)";
+  document.getElementById('gateid').style.backgroundColor="rgb(77,175,77)";
+
+
+
+
+
+}
+
+function esecontent(){
+  document.getElementById('whatsnewcontentbody').style.display="none";
+  document.getElementById('esecontentbody').style.display="block";
+  document.getElementById('gatecontentbody').style.display="none";
+
+  document.getElementById('whatsnewid').style.backgroundColor="rgb(77,175,77)";
+  document.getElementById('eseid').style.backgroundColor="green";
+  document.getElementById('gateid').style.backgroundColor="rgb(77,175,77)";
+
+
+
+
+
+}
+function gatecontent(){
+  document.getElementById('whatsnewcontentbody').style.display="none";
+  document.getElementById('esecontentbody').style.display="none";
+  document.getElementById('gatecontentbody').style.display="block";
+
+  document.getElementById('whatsnewid').style.backgroundColor="rgb(77,175,77)";
+  document.getElementById('eseid').style.backgroundColor="rgb(77,175,77)";
+  document.getElementById('gateid').style.backgroundColor="green";
+
+
+
+
+
+}
+
+function subpara(){
+  var x = document.getElementsByClassName("para");
+  if (x[23].style.display === "none") {
+    x[23].style.display = "block";
+  } else {
+    x[23].style.display = "none";
+  }
+}
+
+function subparao(){
+  var x = document.getElementsByClassName("para");
+  if (x[24].style.display === "none") {
+    x[24].style.display = "block";
+  } else {
+    x[24].style.display = "none";
+  }
+}
+function subparat(){
+  var x = document.getElementsByClassName("para");
+  if (x[25].style.display === "none") {
+    x[25].style.display = "block";
+  } else {
+    x[25].style.display = "none";
+  }
+}
+
+function subparath(){
+  var x = document.getElementsByClassName("para");
+  if (x[26].style.display === "none") {
+    x[26].style.display = "block";
+  } else {
+    x[26].style.display = "none";
+  }
+}
+function subparaf(){
+  var x = document.getElementsByClassName("para");
+  if (x[27].style.display === "none") {
+    x[27].style.display = "block";
+  } else {
+    x[27].style.display = "none";
+  }
+}
+function subparafv(){
+  var x = document.getElementsByClassName("para");
+  if (x[28].style.display === "none") {
+    x[28].style.display = "block";
+  } else {
+    x[28].style.display = "none";
+  }
+}
+function subparas(){
+  var x = document.getElementsByClassName("para");
+  if (x[29].style.display === "none") {
+    x[29].style.display = "block";
+  } else {
+    x[29].style.display = "none";
+  }
+}
+function subparasv(){
+  var x = document.getElementsByClassName("para");
+  if (x[30].style.display === "none") {
+    x[30].style.display = "block";
+  } else {
+    x[30].style.display = "none";
+  }
+}
+function subparae(){
+  var x = document.getElementsByClassName("para");
+  if (x[31].style.display === "none") {
+    x[31].style.display = "block";
+  } else {
+    x[31].style.display = "none";
+  }
+}
+function subparan(){
+  var x = document.getElementsByClassName("para");
+  if (x[32].style.display === "none") {
+    x[32].style.display = "block";
+  } else {
+    x[32].style.display = "none";
+  }
+}
+function subparatn(){
+  var x = document.getElementsByClassName("para");
+  if (x[33].style.display === "none") {
+    x[33].style.display = "block";
+  } else {
+    x[33].style.display = "none";
+  }
+}
+function subparael(){
+  var x = document.getElementsByClassName("para");
+  if (x[34].style.display === "none") {
+    x[34].style.display = "block";
+  } else {
+    x[34].style.display = "none";
+  }
+}
+function subparatw(){
+  var x = document.getElementsByClassName("para");
+  if (x[35].style.display === "none") {
+    x[35].style.display = "block";
+  } else {
+    x[35].style.display = "none";
+  }
+}
+function subparathr(){
+  var x = document.getElementsByClassName("para");
+  if (x[36].style.display === "none") {
+    x[36].style.display = "block";
+  } else {
+    x[36].style.display = "none";
+  }
+}
+function subparaft(){
+  var x = document.getElementsByClassName("para");
+  if (x[37].style.display === "none") {
+    x[37].style.display = "block";
+  } else {
+    x[37].style.display = "none";
+  }
+}
+function subparafvt(){
+  var x = document.getElementsByClassName("para");
+  if (x[38].style.display === "none") {
+    x[38].style.display = "block";
+  } else {
+    x[38].style.display = "none";
+  }
+}
+function subparasxt(){
+  var x = document.getElementsByClassName("para");
+  if (x[39].style.display === "none") {
+    x[39].style.display = "block";
+  } else {
+    x[39].style.display = "none";
+  }
+}
+function subparasvt(){
+  var x = document.getElementsByClassName("para");
+  if (x[40].style.display === "none") {
+    x[40].style.display = "block";
+  } else {
+    x[40].style.display = "none";
+  }
+}
+function subparaet(){
+  var x = document.getElementsByClassName("para");
+  if (x[41].style.display === "none") {
+    x[41].style.display = "block";
+  } else {
+    x[41].style.display = "none";
+  }
+}
+function subparannt(){
+  var x = document.getElementsByClassName("para");
+  if (x[42].style.display === "none") {
+    x[42].style.display = "block";
+  } else {
+    x[42].style.display = "none";
+  }
+}
+
+function subparatnt(){
+  var x = document.getElementsByClassName("para");
+  if (x[43].style.display === "none") {
+    x[43].style.display = "block";
+  } else {
+    x[43].style.display = "none";
+  }
+}
+function subparatnto(){
+  var x = document.getElementsByClassName("para");
+  if (x[44].style.display === "none") {
+    x[44].style.display = "block";
+  } else {
+    x[44].style.display = "none";
+  }
+}
+function subparatntt(){
+  var x = document.getElementsByClassName("para");
+  if (x[45].style.display === "none") {
+    x[45].style.display = "block";
+  } else {
+    x[45].style.display = "none";
+  }
+}
+
 
 
