@@ -10823,6 +10823,7 @@ h3.cart-page-title {
   margin-top: 8px;
   /* border: 1px solid black; */
 
+
 }
 
 .whats-new-li ul li {
@@ -11366,45 +11367,92 @@ body {
  .blog-img-hidetab{
   display: block;
  }
- /* .nav-main{
-  width: 100%;
-  height: 15vh;
+ 
+
+ .container-of-questions{
   display: none;
-  display: grid;
-  grid-template-columns: 1fr;
-
- }
- .icons{
   width: 100%;
-  height: 6vh;
+  height: 300px;
+  background-color: rgb(248,248,248);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+
+ .head-bodylink{
+  width: 100%;
+  height: 13vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  color: green;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.head-bodysublink{
+  width: 99%;
+  height: 99%;
+  background-color: rgb(77,175,77);
+  margin: auto;
   
- }
- .icons-name{
-  width: 100%;
-  height: 15vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
- }
- .icon{
-  border: 1px solid red;
-  padding-left:6vw;
- }
- .icon-name{
-  border: 1px solid red;
+  
+
+}
+
+.head-bodysublink h5{
+  color: white;
+  margin-top: 15px;
+  /* margin-left: 13px; */
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+.contentbodylink{
+  width: 95%;
+  height: 60vh;
+  /* border: 2px solid yellow; */
+  margin: auto;
+  margin-top: 5px;
+
+  
+}
+.contentbodyheader{
+  width: 75%;
+  height: 8vh;
+ 
+
+}
+.contentbodyheader h6{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.content-list-body{
+  width:85% ;
+  height: 48vh;
+  /* border: 2px solid red; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  margin: auto;
+  
+}
+
+.content-list-body-li{
+  width: 85%;
+  height: 45vh;
+  /* border: 2px solid blueviolet; */
+  margin: auto;
+
+
+}
+.content-list-body-li  li{
   font-size: 10px;
-  color: green;
-  margin: 0;
- }
- */
 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: rgb(235,246,244);
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
 
-
-
- /* external css: flickity.css */
-
+}
 
 
 /* for mobile  */
@@ -11426,6 +11474,7 @@ body {
     
   
   }
+
 
 .mobile-nav-course ul li{
   /* line-height: normal; */
@@ -11449,6 +11498,11 @@ body {
   .single-blog{
     display: none;
   }
+
+  .container-of-questions{
+    display: block;
+  }
+  
 
 
 
@@ -11514,6 +11568,10 @@ body {
     -webkit-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
   }
+  .mobile-hide{
+    display: none;
+    
+  }
 
   
 
@@ -11535,6 +11593,7 @@ body {
   .third-banner {
     display: none;
   }
+
  
 
   .performers {
@@ -11835,6 +11894,10 @@ body {
     display: none;
   }
 
+  .p-view{
+    display: none;
+  }
+ 
 
 }
 
