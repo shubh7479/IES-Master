@@ -11506,6 +11506,15 @@ body {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .navline{
+  margin: 0; 
+   margin-bottom: 10px ;
+    border-bottom: 1px gray groove; 
+    margin-top: -10px; 
+display: none;
+
+  }
+
 
 /* for mobile  */
 
@@ -11525,6 +11534,9 @@ body {
     /* display: none; */
     
   
+  }
+  .navline{
+    display: block;
   }
   .useful-part-mobile{
     display: block;
@@ -11648,7 +11660,9 @@ body {
   .third-banner {
     display: none;
   }
-
+  .navline{
+    display: block;
+  }
  
 
   .performers {
@@ -11845,6 +11859,7 @@ body {
   .contact {
     margin-left: 45%;
   }
+
 
   .third-banner {
     display: block;
