@@ -791,6 +791,12 @@ function param(){
   } else {
     x[0].style.display = "none";
   }
+  var len=x.length;
+  // for(i=1;i<=len;i++){
+  //   x[i].style.display="none";
+
+  // }
+ 
 }
 function paramone(){
   var x = document.getElementsByClassName("para");
@@ -1201,7 +1207,23 @@ function subparatntt(){
   } else {
     x[45].style.display = "none";
   }
+
+
+
 }
 
+var myIndex = 0;
+shubham();
 
+function shubham() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(shubham, 2000); // Change image every 2 seconds
+}
 

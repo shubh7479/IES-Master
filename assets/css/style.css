@@ -11093,11 +11093,11 @@ h3.cart-page-title {
   margin: auto;
   margin-top: 15px;
   height: 45%;
-  background-color: #0054a6;
+  /* background-color: #0054a6; */
   /* border: 2px solid red; */
   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
   /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; 
 
 
 
@@ -11333,6 +11333,7 @@ body {
 
 .flickity-button {
   opacity: 0.1;
+
 }
 
 .carousel-cell {
@@ -11342,11 +11343,14 @@ body {
   background: #8C8;
   border-radius: 5px;
   counter-increment: carousel-cell;
+  margin-left: 10px;
+  
 
 
 
 
 }
+
 
 .carousel-cell.is-selected {
   background: #ED2;
@@ -11595,7 +11599,7 @@ body {
   }
 
   .section-title h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .single-blog {
@@ -11707,7 +11711,10 @@ body {
   .navline {
     display: block;
   }
-
+  .mobile-nav-course ul li {
+    /* line-height: normal; */
+    line-height: 17px;
+  }
 
   .performers {
     width: 90%;
@@ -11800,9 +11807,11 @@ body {
   }
 
 
+
   .useful-link-content ul li {
     text-align: left;
     margin-left: 250px;
+    
 
   }
 
@@ -12073,5 +12082,11 @@ body {
   .mobile-slider-tab {
     display: none;
     margin-bottom: 20px;
+  }
+
+
+  .img-of-topper a{
+    margin-left: 87%;
+
   }
 }
