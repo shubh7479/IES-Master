@@ -11104,7 +11104,7 @@ h3.cart-page-title {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   /* background-image: url(assets/img/banner/banner-0.jpg);  */
   background-size: cover;
-  background-image: url(/assets/img/banner/banner-01.jpg);
+  /* background-image: url(/assets/img/banner/banner-0.jpg); */
   animation-name: Slideshow;
   animation-duration: 30s;
   animation-iteration-count: infinite;
@@ -11140,7 +11140,29 @@ h3.cart-page-title {
 
 
 }
+.sliders-of-topper {
+  width: 90%;
+  margin: auto;
+  margin-top: 15px;
+  height: 45%;
+  /* background-color: #0054a6; */
+  /* border: 2px solid red; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  /* background-image: url(assets/img/banner/banner-0.jpg);  */
+  background-size: cover;
+  background-image: url(/htmldemo.net/glaxdu/glaxdu/assets/img/banner/banner-0.jpg);
+  animation-name: Slideshow-two;
+  animation-duration: 30s;
+  /* animation-iteration-count: infinite; */
+  animation-direction: initial;
 
+
+
+
+
+}
 
 
 
@@ -11577,6 +11599,18 @@ body {
 
 }
 
+.app-download{
+  width: 60%;
+  height: 50px;
+  margin-top: 10px;
+}
+.app-download-mac{
+  width: 60%;
+  height: 60px;
+  margin-top: 10px;
+
+}
+
 
 /* for mobile  */
 
@@ -11722,6 +11756,18 @@ body {
 
   }
 
+  .app-download{
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .app-download-mac{
+    width: 50%;
+    height: 60px;
+    margin-top: 10px;
+  
+  }
+
 
 
 
@@ -11737,6 +11783,26 @@ body {
     width: 99px;
 
   }
+ .img-of-topper{
+  height: 90%;
+  width: 90%;
+  
+
+ }
+
+
+ .app-download{
+  width: 40%;
+  height: 50px;
+  margin-top: 10px;
+}
+.app-download-mac{
+  width: 40%;
+  height: 60px;
+  margin-top: 10px;
+
+}
+
 }
 
 
@@ -11948,6 +12014,18 @@ body {
     /* margin-top: 50px; */
   }
 
+  .app-download{
+    width: 45%;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .app-download-mac{
+    width: 45%;
+    height: 60px;
+    margin-top: 10px;
+  
+  }
+
 
 
 
@@ -12095,6 +12173,18 @@ body {
 
   .p-view {
     display: none;
+  }
+
+  .app-download{
+    width: 70%;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .app-download-mac{
+    width: 70%;
+    height: 60px;
+    margin-top: 10px;
+  
   }
 
 
