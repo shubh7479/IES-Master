@@ -1,0 +1,28 @@
+.about-dir{
+    
+    height: auto;
+    /* background-color: rgb(235,246,244); */
+    width:87% ;
+     text-align: left; 
+     margin-left: 80px;
+    
+
+
+}
+.about-dir p{
+    /* font-size: 15px; */
+    line-height: 21px;
+}
+
+
+@media  (max-width:767px){
+    .about-dir{
+
+        margin-left: 25px;
+     text-align: justify; 
+
+    }
+
+    
+
+}
