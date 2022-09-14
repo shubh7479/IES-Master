@@ -786,6 +786,7 @@ function gate() {
 
 function param(){
   var x = document.getElementsByClassName("para");
+  // x[0].style.transition="all 2s";
   if (x[0].style.display === "none") {
     x[0].style.display = "block";
   } else {
@@ -1226,4 +1227,62 @@ function shubham() {
   x[myIndex-1].style.display = "block";  
   setTimeout(shubham, 2000); // Change image every 2 seconds
 }
+
+function civil(){
+  document.getElementById("ce").style.backgroundColor="rgb(215,249,211)";
+  document.getElementById("ce").style.border=" 2px solid green";
+  document.getElementById("me").style.backgroundColor="white";
+  document.getElementById("me").style.border="none";
+  document.getElementById("ee").style.backgroundColor="white";
+  document.getElementById("ee").style.border="none";
+  document.getElementById("ec").style.backgroundColor="white";
+  document.getElementById("ec").style.border="none";
+  // document.getElementById("cetable").style.display="block";
+  // document.getElementById("metable").style.display="none";
+
+}
+function mechanical(){
+  document.getElementById("me").style.backgroundColor="rgb(215,249,211)";
+  document.getElementById("me").style.border=" 2px solid green";
+  document.getElementById("ce").style.backgroundColor="white";
+  document.getElementById("ce").style.border="none";
+  document.getElementById("ee").style.backgroundColor="white";
+  document.getElementById("ee").style.border="none";
+  document.getElementById("ec").style.backgroundColor="white";
+  document.getElementById("ec").style.border="none";
+  // document.getElementById("cetable").style.display="none";
+  // document.getElementById("metable").style.display="block";
+
+}
+function electrical(){
+  document.getElementById("ee").style.border=" 2px solid green";
+  document.getElementById("ee").style.backgroundColor="rgb(215,249,211)";
+  document.getElementById("me").style.backgroundColor="white";
+  document.getElementById("me").style.border="none";
+  document.getElementById("ce").style.backgroundColor="white";
+  document.getElementById("ce").style.border="none";
+  document.getElementById("ec").style.backgroundColor="white";
+  document.getElementById("ec").style.border="none";
+
+}
+function electronics(){
+  document.getElementById("ec").style.backgroundColor="rgb(215,249,211)";
+  document.getElementById("ec").style.border=" 2px solid green";
+  document.getElementById("me").style.backgroundColor="white";
+  document.getElementById("me").style.border="none";
+  document.getElementById("ee").style.backgroundColor="white";
+  document.getElementById("ee").style.border="none";
+  document.getElementById("ce").style.backgroundColor="white";
+  document.getElementById("ce").style.border="none";
+
+
+}
+
+
+
+
+
+
+
+
 
