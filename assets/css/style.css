@@ -10700,7 +10700,8 @@ h3.cart-page-title {
 
   padding-top: 60px;
   padding-left: 20%;
-  border-radius: 15px 50px 30px;
+  /* border-radius: 15px 50px 30px; */
+  border-radius: 2%;
 
 
 
@@ -10789,11 +10790,11 @@ h3.cart-page-title {
   height: 90%;
   /* background-color: blue; */
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
 }
 
 .whats-new-li {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 86%;
   height: 350px;
 
@@ -10816,7 +10817,7 @@ h3.cart-page-title {
 .scrollable-content {
   /* background: #eee; */
   height: 340px;
-  width: 80%;
+  width: 95%;
   overflow-x: scroll;
   overflow-x: hidden;
   margin-top: 8px;
@@ -10825,14 +10826,16 @@ h3.cart-page-title {
 
 }
 
+
 .whats-new-li ul li {
   font-size: 11px;
   text-align: left;
   border: 1px solid #D3D3D3;
-  padding: 5px;
+  padding: 3px;
   padding-left: 18px;
-  padding-top: 1px;
-  background-color: rgb(235, 246, 244);
+  padding-top: 0px;
+  background-color: rgb(231,250,254);
+  color: rgb(0,32,65);
 
 }
 
