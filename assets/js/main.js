@@ -1237,8 +1237,19 @@ function civil(){
   document.getElementById("ee").style.border="none";
   document.getElementById("ec").style.backgroundColor="white";
   document.getElementById("ec").style.border="none";
-  // document.getElementById("cetable").style.display="block";
-  // document.getElementById("metable").style.display="none";
+  document.getElementById("cetable").style.display="block";
+  document.getElementById("metable").style.display="none";
+  document.getElementById("eetable").style.display="none";
+  document.getElementById("papereone").style.display="none";
+  document.getElementById("paperetwo").style.display="none";
+  document.getElementById("eetabletwo").style.display="none";
+  document.getElementById("ecetable").style.display="none";
+  document.getElementById("paperecone").style.display="none";
+  document.getElementById("paperectwo").style.display="none";
+  document.getElementById('ecetabletwo').style.display='none';
+
+
+
 
 }
 function mechanical(){
@@ -1250,8 +1261,20 @@ function mechanical(){
   document.getElementById("ee").style.border="none";
   document.getElementById("ec").style.backgroundColor="white";
   document.getElementById("ec").style.border="none";
-  // document.getElementById("cetable").style.display="none";
-  // document.getElementById("metable").style.display="block";
+  document.getElementById("cetable").style.display="none";
+  document.getElementById("metable").style.display="block";
+  document.getElementById("eetable").style.display="none";
+
+  document.getElementById("papereone").style.display="none";
+  document.getElementById("paperetwo").style.display="none";
+  document.getElementById("eetabletwo").style.display="none";
+  document.getElementById("ecetable").style.display="none";
+  document.getElementById("paperecone").style.display="none";
+  document.getElementById("paperectwo").style.display="none";
+  document.getElementById('ecetabletwo').style.display='none';
+
+
+
 
 }
 function electrical(){
@@ -1263,6 +1286,20 @@ function electrical(){
   document.getElementById("ce").style.border="none";
   document.getElementById("ec").style.backgroundColor="white";
   document.getElementById("ec").style.border="none";
+  document.getElementById("cetable").style.display="none";
+  document.getElementById("metable").style.display="none";
+  document.getElementById("eetable").style.display="block";
+
+  document.getElementById("papereone").style.display="block";
+  document.getElementById("paperetwo").style.display="block";
+  document.getElementById("eetabletwo").style.display="none";
+  document.getElementById("ecetable").style.display="none";
+  document.getElementById("paperecone").style.display="none";
+  document.getElementById('ecetabletwo').style.display='none';
+  document.getElementById("paperectwo").style.display="none";
+
+
+
 
 }
 function electronics(){
@@ -1274,8 +1311,44 @@ function electronics(){
   document.getElementById("ee").style.border="none";
   document.getElementById("ce").style.backgroundColor="white";
   document.getElementById("ce").style.border="none";
+  document.getElementById("papereone").style.display="none";
+  document.getElementById("paperetwo").style.display="none";
+  document.getElementById("cetable").style.display="none";
+  document.getElementById("metable").style.display="none";
+  document.getElementById("eetable").style.display="none";
+  document.getElementById("eetabletwo").style.display="none";
+  document.getElementById("paperecone").style.display="block";
+  document.getElementById("paperectwo").style.display="block";
+  document.getElementById("ecetable").style.display="block";
+  document.getElementById('ecetabletwo').style.display='none';
 
 
+
+
+
+}
+
+function paperElone(){
+  document.getElementById('eetabletwo').style.display="none";
+  document.getElementById('eetable').style.display="block";
+
+}
+function paperEltwo(){
+  document.getElementById('eetabletwo').style.display="block";
+  document.getElementById('eetable').style.display="none";
+
+
+}
+
+function papereeone(){
+  document.getElementById('ecetabletwo').style.display='none';
+  document.getElementById('ecetable').style.display='block';
+
+}
+function papereetwo(){
+  document.getElementById('ecetabletwo').style.display='block';
+  document.getElementById('ecetable').style.display='none';
+  
 }
 
 
